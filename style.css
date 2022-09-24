@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 100px;
+}
+.banner{
+    margin-top: 70px;
+    height: 100vh;
+
+}
+.navbar{
+
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.navbar-item{
+    margin-right: auto;
+}
+.square {
+    position:absolute;
+    top: 420px;
+    left: 220px;
+    z-index: -1;
+
+  }
+
+  .star{
+    position:absolute;
+    right:90px;
+
+  }
+
+  .globe{
+    position: absolute;
+    left: 50%;
+    top: 170px;
+    /* right: 500px;
+    top: -50px; */
+}
+.img-text-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero-description{
+ padding: 10px;
+}
+
+.limit{
+    width:50%;
+}
+.navbar-item{
+    margin-top: 14px;
+}
+.list{
+
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding: 20px;
+  }
+  .button-group{
+    display: flex;
+  }
+  .search-icon{
+    margin-right: 14px;
+  }
+
+  .nav-button{
+  padding: 8px;
+  width: 100px;
+  border-radius: 12px;
+  background-color: white;
+  }
+
+.button-email{
+padding: 8px;
+background-color: white;
+color: black;
+border-radius: 10px;
+}
+
+.button-join{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
